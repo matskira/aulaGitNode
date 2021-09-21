@@ -6,7 +6,7 @@ const port = '3000';
 const server = http.createServer((req, resp)=>{
     resp.statusCode = 200;
     resp.setHeader('Content-Type', 'text/plain');
-    resp.end('Hello World');
+    resp.end('Teste de pipeline');
 });
 
 server.listen(port, hostname, ()=>{
